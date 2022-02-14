@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    cursor: none;
+  }
+  
+  body {
+    background-image: url("https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .container {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  button {
+    color: #fff;
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 15px 45px;
+    font-size: 1.1rem;
+    margin-top: 3em;
+    outline: none;
+    cursor: none;
+  }
+  
+  .abacaxiCortado {
+    position: absolute;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: none;
+  }
+
+  
+  .abacaxi {
+    height: 130px;
+  }
+  
+  img::selection {
+    background: transparent;
+  }
+  
+  .cursor {
+    position: absolute;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 2;
+    transition: 0.3s transform ease;
+    transform-origin: 100% 100%;
+  }
